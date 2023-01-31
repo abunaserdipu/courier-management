@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\OrderController;
+use App\Http\Controllers\TrackController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,8 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('layouts.app');
-// });
+Route::get('/', function () {
+    return view('dashboard');
+});
 
 Route::get('/order', [OrderController::class, 'index']);
+Route::get('/track', [TrackController::class, 'index']);

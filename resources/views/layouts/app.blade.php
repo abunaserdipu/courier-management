@@ -14,17 +14,18 @@
 </head>
 
 <body>
-  <div class="p-5">
+  <div class="container-fluid">
     @include('layouts.top-nav')
-  </div>
+  
   <div class="row p-0 m-0">
-    <div class="col-md-3">
+    <div class="col-md-3 ps-0">
       @include('layouts.sidebar')
     </div>
-    <div class="col-md-9">
+    <div class="col-md-9 pe-0">
       @yield('content')
     </div>
   </div>
+</div>
 
 </body>
 

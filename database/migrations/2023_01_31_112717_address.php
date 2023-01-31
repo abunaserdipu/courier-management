@@ -13,9 +13,10 @@ class Address extends Migration
      */
     public function up()
     {
-        Schema::create('addresses', function (Blueprint $table) {
-            $table->increment('id');
-            $table->string('product-name', 150);
+        Schema::create('address', function (Blueprint $table) {
+            $table->id();
+            $table->string('address');
+            $table->timestamps();
         });
     }
 
@@ -26,6 +27,6 @@ class Address extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop('addresses');
     }
 }
