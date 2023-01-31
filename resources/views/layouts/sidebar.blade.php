@@ -1,4 +1,4 @@
-<nav class="navbar bg-light">
+<nav class="navbar bg-light sticky">
   <div class="container-fluid">
     <ul class="navbar-nav">
       <li class="nav-item">

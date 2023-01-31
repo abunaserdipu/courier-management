@@ -14,7 +14,10 @@
 </head>
 
 <body>
-  <div class="row">
+  <div class="p-5">
+    @include('layouts.top-nav')
+  </div>
+  <div class="row p-0 m-0">
     <div class="col-md-3">
       @include('layouts.sidebar')
     </div>
