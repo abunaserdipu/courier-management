@@ -1,5 +1,54 @@
 @extends('layouts.app')
 
 @section('content')
-<p class="bg-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim eligendi harum in expedita itaque cumque voluptatem deleniti asperiores dolorum a distinctio ea nulla dolorem, dicta, amet quidem sit blanditiis iste nobis exercitationem esse. Qui cupiditate expedita eveniet quisquam quam, enim ea nemo. Eaque optio, cumque sequi enim pariatur quia nam commodi maxime sint nihil necessitatibus? Provident saepe cupiditate commodi molestias architecto tempora sapiente vero animi impedit et molestiae voluptate est maiores quod dignissimos modi atque delectus illum, doloribus tempore eum porro, minus beatae? Vel, consequatur atque omnis nesciunt, accusantium dolorem pariatur architecto quae at laudantium, non illum laborum eos repellendus dignissimos suscipit. Sequi repudiandae aliquam reiciendis, assumenda recusandae dignissimos ipsam eius ad unde, a suscipit debitis aspernatur amet sed est quo, magni ea iusto enim sunt nam porro obcaecati laudantium quae! Placeat adipisci itaque repudiandae et, recusandae veritatis dicta, a architecto maxime, quis vero. Soluta odit tempora quos tenetur nam magni, quod optio iure quam excepturi aliquid, ullam inventore. Ea aperiam nobis ullam quisquam enim eos laboriosam exercitationem voluptatem, doloremque, qui voluptas iste repellendus fugit dicta alias neque maiores. Modi porro a tenetur nesciunt iusto neque vero veniam quibusdam dolore, deserunt quae, voluptates qui, accusamus expedita culpa cupiditate error. Neque, doloribus a. Ducimus dolorum error saepe nobis, temporibus atque harum quos voluptates cum praesentium reiciendis et molestias amet tempore ad possimus? Odio nam esse laudantium deleniti iure libero ea ipsum suscipit commodi quaerat, delectus temporibus fugiat repudiandae veniam dolores voluptatum corporis? Dignissimos fugit voluptas odit reprehenderit saepe dolore ipsum iusto dolores quas tempore! Corporis asperiores ab eveniet iusto reprehenderit, rerum itaque optio voluptatibus praesentium tempore sunt tempora quidem, labore nisi veritatis culpa minima ipsam dolor, dolorem mollitia eius dolore deserunt. Libero voluptate ipsum optio aperiam! Voluptas consectetur corrupti iure similique! Saepe numquam sit error minus, nemo, excepturi suscipit repellendus quas quidem ipsa non similique mollitia officiis harum tempore nisi modi provident. Velit ullam et, recusandae ea reprehenderit accusamus quia vero corporis exercitationem doloremque, quasi modi voluptates fuga dicta tenetur accusantium est quo sequi dolorem perspiciatis consectetur culpa reiciendis earum provident. Id saepe architecto error laboriosam magni dolorem rem quo dolores corrupti doloremque aspernatur dolorum, reprehenderit alias fuga consequatur voluptas, quos adipisci corporis deleniti! Voluptatum ipsum sed eligendi tempora distinctio suscipit, perferendis harum sunt impedit cum voluptatibus ipsam velit est vero officia expedita culpa qui. Error, voluptatum consequuntur iure ipsam sed mollitia illum impedit eveniet dicta, dolorum optio commodi vitae voluptate, illo quia magni adipisci? Doloribus ad veritatis porro ea nemo expedita, architecto impedit enim tempore reiciendis ducimus ipsam id magnam possimus repudiandae harum iure laborum nesciunt itaque. Nam dicta tempore itaque deleniti voluptate. Iure ratione soluta molestias aut quis recusandae deleniti libero obcaecati quibusdam quod provident consequuntur itaque, eum mollitia. Facilis minima quasi nam ipsum quaerat alias dolores sint iusto, nulla, veritatis nesciunt quae fuga est consequuntur harum eum veniam voluptate? Similique qui illum libero esse, facilis quibusdam aspernatur eveniet ipsa quam explicabo accusamus! Quia quos ipsum, quis culpa sit sequi. Perspiciatis a repudiandae molestiae vel nobis distinctio eveniet nulla quae veritatis quam ratione aliquam incidunt possimus voluptas facere ipsam, fuga perferendis iure saepe. Iste necessitatibus doloremque officia similique, repellendus enim minima animi dolores accusantium quis quisquam consectetur sint voluptatum? Quis maxime perspiciatis architecto voluptas magni ipsum voluptate impedit nostrum asperiores nam ab, sed libero nesciunt nihil necessitatibus deserunt repudiandae modi, vitae accusantium enim, quidem iste ducimus quo odio. Consequuntur ab provident illo deleniti facilis expedita rerum repudiandae laboriosam beatae delectus, possimus laborum ipsum iusto quisquam unde quas. Ipsum voluptate nam ex earum quam non ea cum laboriosam eius laudantium, in laborum fuga excepturi praesentium dolores obcaecati placeat! Saepe aperiam commodi sed fugiat perferendis ipsa et voluptatem? Tenetur, cum corrupti provident neque eum nisi, odio dolore maiores, nam aperiam minus porro tempora quaerat? Voluptate, explicabo! Vero, quidem incidunt? Esse eos, rem a eligendi cum dicta laudantium quidem autem, similique harum nobis expedita sed tempora. Omnis necessitatibus soluta eius, explicabo consequuntur eligendi quisquam et laboriosam. Obcaecati, laboriosam? Quos nam aut ullam cupiditate fuga, modi, numquam quod eius maiores earum velit non error totam porro adipisci unde sequi quas voluptate, enim laudantium? Officiis esse quasi maxime consequuntur quo, eaque nam iusto recusandae exercitationem tenetur illum quidem soluta culpa doloribus neque enim perspiciatis ex accusantium reprehenderit obcaecati magni cum ullam vero. Minima totam quibusdam possimus modi assumenda voluptate, fugit quisquam iure temporibus quasi debitis corrupti, provident nobis inventore doloremque eum, eius nesciunt. Fugit odio, nisi hic ullam ut voluptatibus excepturi aperiam aut corrupti! Fugit eum, harum magnam natus molestias officia minima quisquam unde voluptatibus nesciunt laboriosam? Repudiandae, omnis nobis optio eveniet expedita soluta unde asperiores incidunt labore facere voluptate vero, ipsam, laboriosam doloremque odit quam id? Molestias, delectus fugit accusamus harum voluptate saepe quod quidem perspiciatis ab deleniti obcaecati reiciendis officia? Aliquid quisquam pariatur dignissimos deleniti, eum ad a ducimus corrupti fuga rerum facilis doloribus iure, aperiam sit blanditiis iste totam esse? Tenetur aut, facilis tempora fuga saepe similique quo cupiditate ex totam quis, deleniti placeat nam a blanditiis accusamus commodi vitae cum soluta maiores ullam quam fugit. Voluptas eaque similique iusto aliquid mollitia expedita esse delectus tempora assumenda accusamus quibusdam ipsum, illo fuga accusantium quidem neque nostrum, ratione harum rerum ad natus. Quo officia magni consequatur est eius similique velit corrupti molestiae incidunt ut unde quibusdam eligendi, odit odio numquam asperiores eveniet voluptates mollitia quod dolor expedita illum. Laudantium modi fugit animi dolores voluptatibus sed id, nemo aliquam ex alias officia quam rerum mollitia voluptatem. Qui delectus sapiente dolore impedit accusantium ad animi reiciendis porro debitis, excepturi inventore quos. Illo adipisci dolorem enim voluptatem cum repellat voluptates corporis minima placeat neque illum, ipsa atque assumenda non quidem eveniet, at facere voluptatum ducimus ab architecto id. Accusantium debitis veritatis, iure quas delectus impedit explicabo quod hic vel. Ad voluptatibus facilis dignissimos corrupti ut aspernatur similique quidem repellat minus dolore qui libero dolorem adipisci distinctio consequatur nihil nesciunt commodi voluptatum, provident at. Perspiciatis illo rem reiciendis vitae possimus eum, nostrum quo laboriosam aspernatur, quam cumque distinctio sit optio ipsa ut ratione. Ipsum, eaque repudiandae!</p>
+  <form action="">
+    <p class="bg-info p-2 fs-4">Receiver Information</p>
+    <div class="form-group pb-3">
+      <label for="" class="fw-bold">Receiver Name</label>
+      <input class="form-control" type="text" name="receiver-name" id="">
+    </div>
+    <div class="form-group pb-3">
+      <label for="" class="fw-bold">Receiver Contact</label>
+      <input type="text" name="receiver-contact" id="">
+    </div>
+    <div class="form-group pb-3">
+      <label for="" class="fw-bold">Receiver Address</label>
+      <select name="receiver-address" id="">
+        <option value="">Select One</option>
+      </select>
+    </div>
+    <p class="bg-info p-2 fs-4">Sender Information</p>
+    <div class="form-group pb-3">
+      <label for="" class="fw-bold">Sender Name</label>
+      <input class="form-control" type="text" name="sender-name" id="">
+    </div>
+    <div class="form-group pb-3">
+      <label for="" class="fw-bold">Sender Contact</label>
+      <input class="form-control" type="text" name="sender-contact" id="">
+    </div>
+    <div class="form-group pb-3">
+      <label for="" class="fw-bold">Sender Address</label>
+      <select name="sender-address" id="">
+        <option value="">Select One</option>
+      </select>
+    </div>
+
+    <p class="bg-info p-2 fs-4">Order Information</p>
+    <div class="form-group pb-3">
+      <label for="" class="fw-bold">Order Type</label>
+      <select name="order-type" id="">
+        <option value="">Select One</option>
+      </select>
+    </div>
+    <div class="form-group pb-3">
+      <label for="" class="fw-bold">Order Weight</label>
+      <input type="text" name="order-weight" id="">
+    </div>
+    <div class="form-group pb-3">
+      <label for="" class="fw-bold">Order Price</label>
+      <input class="form-control" type="text" name="order-price" id=""
+        value="{{ Request::input('order-weight') }}">
+    </div>
+
+  </form>
 @endsection
