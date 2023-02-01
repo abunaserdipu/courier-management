@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('dashboard');
 });
-
-Route::get('/order', [OrderController::class, 'index']);
+Route::resource('order', OrderController::class);
+// Route::get('/order', [OrderController::class, 'index']);
 Route::get('/track', [TrackController::class, 'index']);
+Route::get('/track-order', [TrackController::class, 'orderTrack']);

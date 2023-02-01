@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Address;
 use App\Models\Order;
 use Illuminate\Http\Request;
 
@@ -14,7 +15,6 @@ class OrderController extends Controller
      */
     public function index()
     {
-        return view('order');
     }
 
     /**
@@ -24,7 +24,8 @@ class OrderController extends Controller
      */
     public function create()
     {
-        //
+        $locations = Address::get();
+        return view('order', compact('locations'));
     }
 
     /**
@@ -35,7 +36,32 @@ class OrderController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validation = $request->validate([
+            'receiver_name' => 'required',
+            'receiver_contact' => 'required',
+            'receiver_address' => 'required',
+            'sender_name' => 'required',
+            'sender_contact' => 'required',
+            'sender_address' => 'required',
+            'order_type' => 'required',
+            'order_weight' => 'required',
+            'order_price' => 'required',
+            'order_status' => 'order_status',
+        ]);
+        $order = new Order;
+        $order->receiver_name = $request->receiver_name;
+        $order->receiver_contact = $request->receiver_contact;
+        $order->receiver_address = $request->receiver_address;
+        $order->sender_name = $request->sender_name;
+        $order->sender_contact = $request->sender_contact;
+        $order->sender_contact = $request->sender_contact;
+        $order->sender_address = $request->sender_address;
+        $order->order_type = $request->order_type;
+        $order->order_weight = $request->order_weight;
+        $order->order_price = $request->order_price;
+        $order->order_status = $request->order_status;
+        $order->save();
+        return redirect('order')->with('msg', "Product Added");
     }
 
     /**
