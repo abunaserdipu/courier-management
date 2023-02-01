@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Address;
 use App\Models\Order;
+use App\Models\OrderStatus;
 use Illuminate\Http\Request;
 
 class OrderController extends Controller
@@ -15,6 +16,10 @@ class OrderController extends Controller
      */
     public function index()
     {
+        $orders = Order::get();
+        $actions = OrderStatus::get();
+        // $actions = DB::table('order_statuses')->select('status')->where('status', 1)->get();
+        return view('order_list', compact('orders', 'actions'));
     }
 
     /**
@@ -46,7 +51,7 @@ class OrderController extends Controller
             'order_type' => 'required',
             'order_weight' => 'required',
             'order_price' => 'required',
-            'order_status' => 'order_status',
+            'order_status' => 'required',
         ]);
         $order = new Order;
         $order->receiver_name = $request->receiver_name;

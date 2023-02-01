@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\TrackController;
 use Illuminate\Support\Facades\Route;
@@ -15,9 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('dashboard');
-});
+Route::get('/', [DashboardController::class, 'index']);
 Route::resource('order', OrderController::class);
 // Route::get('/order', [OrderController::class, 'index']);
 Route::get('/track', [TrackController::class, 'index']);
