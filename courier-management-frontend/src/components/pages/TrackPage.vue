@@ -1,4 +1,9 @@
 <template>
+  <HeaderLayout />
+  <div class="track-header">
+    <img src="../../assets/images/store.jpg" alt="">
+    <p class="fs-1 fw-bold text-white">Order Track</p>
+  </div>
   <div class="row p-0 m-0">
         <div class="col-md-6">
             <img src="../../assets/images/track.jpg" style="width:100%" alt="track">
@@ -30,11 +35,29 @@
 </template>
 
 <script>
+import HeaderLayout from '../layouts/HeaderLayout.vue';
 export default {
-
+  components:{
+  HeaderLayout
+}
 }
 </script>
 
 <style scoped>
-
+.track-header img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position:center;
+  filter: brightness(0.5);
+  position:relative;
+  z-index: 0;
+}
+.track-header p{
+  position: absolute;
+  z-index: 1;
+  top: 150px;
+  left: 20px;
+  border-bottom: 3px solid blue;
+}
 </style>
