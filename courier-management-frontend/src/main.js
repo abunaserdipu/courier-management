@@ -1,5 +1,6 @@
 import { createApp } from "vue";
 import App from "./App.vue";
+import router from "./components/router";
 
 // Bootstrap
 import "./assets/bootstrap-5.0.2-dist/css/bootstrap.min.css";
@@ -13,4 +14,7 @@ library.add(faUserSecret);
 
 // import './assets/main.css'
 
-createApp(App).component("font-awesome-icon", FontAwesomeIcon).mount("#app");
+const app = createApp(App);
+app.component("font-awesome-icon", FontAwesomeIcon);
+app.use(router);
+app.mount("#app");

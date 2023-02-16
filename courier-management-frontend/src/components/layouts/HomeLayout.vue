@@ -1,7 +1,7 @@
 <template>
-  
-  <HomePage />
   <HeaderLayout />
+  <HomePage />
+  
 </template>
 
 <script>

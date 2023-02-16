@@ -8,8 +8,7 @@ export default{
 </script>
 
 <template>
-  <HomeLayout />
-  <h1 class="text-center"><font-awesome-icon icon="fa-solid fa-user-secret" /> Hello World I'm using Bootstrap with Vue <br> Yay also using font-awesome!</h1>
+  <router-view></router-view>
 </template>
 
 <style>
