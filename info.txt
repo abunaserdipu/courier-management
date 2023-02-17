@@ -1,0 +1,4 @@
+Hostinger Database:
+password: ]kVzF6Uo
+userName: u318076185_bsh_courier
+databaseName: u318076185_bsh_courier

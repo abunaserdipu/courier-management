@@ -82,7 +82,7 @@
       
       var weightValue = $("input[name='order_weight']").val();
       if(weightValue>1){
-        var price = $('#price').val(Number(weightValue*.14*70+70).toFixed());
+        var price = $('#price').val(Number(70 + (weightValue - 1)*20).toFixed());
       }else if(weightValue>=0.5){
         $('#price').val(70);
       }

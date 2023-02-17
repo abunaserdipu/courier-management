@@ -20,7 +20,7 @@ class OrderSeeder extends Seeder
             'receiver_address' => 'Dhanmondi',
             'sender_name' => 'Md Abu Naser Dipu',
             'sender_contact' => '01521327682',
-            'receiver_address' => 'Mirpur-10',
+            'sender_address' => 'Mirpur-10',
             'order_type' => '1',
             'order_status' => '1',
             'order_weight' => '1',

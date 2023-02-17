@@ -6,6 +6,7 @@ use App\Models\Address;
 use App\Models\Order;
 use App\Models\OrderStatus;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class OrderController extends Controller
 {
@@ -18,7 +19,7 @@ class OrderController extends Controller
     {
         $orders = Order::get();
         $actions = OrderStatus::get();
-        // $actions = DB::table('order_statuses')->select('status')->where('status', 1)->get();
+        $actions = DB::table('order_statuses')->select('status')->where('status', 1)->get();
         return view('order_list', compact('orders', 'actions'));
     }
 
