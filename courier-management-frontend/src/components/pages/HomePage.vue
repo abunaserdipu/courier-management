@@ -6,13 +6,36 @@
       <div class="carousel-head">
       <p class="carousel-title">We pick up & deliver your packages</p>
       <p class="carousel-text">Making rush <strong>same day</strong> deliveries throughout the Bangladesh. On time every time.</p>
+      <div class="carousel-button d-flex justify-content-around">
+        <button class="btn btn-outline-light btn-lg"><strong>Call: 01521327682</strong></button>
+      <button class="btn btn-outline-light btn-lg"><strong>Create a Order</strong></button>
+      </div>
+      
     </div>
     </div>
     <div class="carousel-item">
       <img src="../../assets/images/transport.jpg" class="d-block w-100 c-img-2" alt="...">
+      <div class="carousel-head">
+      <p class="carousel-title">Dedicated vehicles available to reach your parcel</p>
+      <p class="carousel-text">Making rush <strong>same day</strong> deliveries throughout the Bangladesh. On time every time.</p>
+      <div class="carousel-button d-flex justify-content-around">
+        <button class="btn btn-outline-light btn-lg"><strong>Call: 01521327682</strong></button>
+      <button class="btn btn-outline-light btn-lg"><strong>Create a Order</strong></button>
+      </div>
+      
+    </div>
     </div>
     <div class="carousel-item">
       <img src="../../assets/images/packaging.jpg" class="d-block w-100 c-img-3" alt="...">
+      <div class="carousel-head">
+      <p class="carousel-title">We package your parcel with caution & care</p>
+      <p class="carousel-text">Making rush <strong>same day</strong> deliveries throughout the Bangladesh. On time every time.</p>
+      <div class="carousel-button d-flex justify-content-around">
+        <button class="btn btn-outline-light btn-lg"><strong>Call: 01521327682</strong></button>
+      <button class="btn btn-outline-light btn-lg"><strong>Create a Order</strong></button>
+      </div>
+      
+    </div>
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -74,16 +97,22 @@
   </div>
   </div>
 </section>
+<section class="py-3">
+  <ReviewPage />
+</section>
 </template>
 
 <script>
+import ReviewPage from './ReviewPage.vue';
 export default {
-
+components:{
+  ReviewPage
+}
 }
 </script>
  
 <style scoped>
-.carousel{
+.carousel img{
   position: relative;
   z-index: 0;
   filter: brightness(0.5);
@@ -103,8 +132,11 @@ export default {
 }
 .carousel-text{
   text-transform: capitalize;
-  font-size:17px;
-  color: white;
+  font-size: 20px;
+  color:whitesmoke;
+}
+.carousel-button .btn {
+  transition: all 0.5s ease-in-out;
 }
 .service hr{
   width: 100px;

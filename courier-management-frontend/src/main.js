@@ -15,7 +15,20 @@ import {
     faFileLines,
     faGem,
 } from "@fortawesome/free-solid-svg-icons";
-library.add(faUserSecret, faBoxesPacking, faFileLines, faGem);
+import {
+    faLinkedin,
+    faFacebook,
+    faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+library.add(
+    faUserSecret,
+    faBoxesPacking,
+    faFileLines,
+    faGem,
+    faLinkedin,
+    faFacebook,
+    faTwitter
+);
 
 // import './assets/main.css'
 const app = createApp(App);
