@@ -28,11 +28,57 @@
               <div class="form-group pb-3">
                 <input class="form-control shadow rounded" type="search" v-model="trackSearch" placeholder="Track your order">
               </div>
-              <input class="form-control btn btn-outline-danger shadow rounded" type="submit" value="Search">
+              <!-- <input class="form-control btn btn-outline-danger shadow rounded" type="submit" value="Search"> -->
+              <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+  Open modal
+</button>
         </form>
-        {{ trackSearch }}
     </div>
     </div>
+    <!-- Button to Open the Modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+  Open modal
+</button> -->
+
+<!-- The Modal -->
+<div class="modal" id="myModal" v-if="searchResult.length > 0">
+  <div class="modal-dialog  modal-xl">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <table class="table table-striped table-bordered">
+          <tr>
+            <th>Sender Name</th>
+            <th>Sender Mobile</th>
+            <th>Receiver Name</th>
+            <th>Receiver Mobile</th>
+            <th>Order Status</th>
+          </tr>
+          <tr v-for="info in searchResult" :key="info.id">
+            <td>{{ info.sender_name }}</td>
+            <td>{{ info.sender_contact }}</td>
+            <td>{{ info.receiver_name }}</td>
+            <td>{{ info.receiver_contact }}</td>
+            <td>{{ info.status }}</td>
+          </tr>
+        </table>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
 </template>
 
 <script>
@@ -41,13 +87,15 @@ import axios from "axios";
 export default {
   data(){
     return {
-      trackSearch:""
+      trackSearch:"",
+      searchResult:[],
     }
   },
   methods:{
     trackOrder(){
-      axios.post('http://127.0.0.1:5173/api/track/',{item:this.trackSearch}).then((response)=>{
-        console.log(response);
+      axios.post('http://127.0.0.1:8000/api/track/',{item:this.trackSearch}).then((response)=>{
+        this.searchResult = response.data;
+        // console.log(response.data);
       })
     }
   },
