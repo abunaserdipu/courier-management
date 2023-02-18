@@ -9,7 +9,7 @@
             <img src="../../assets/images/track.jpg" style="width:100%" alt="track">
         </div>
         <div class="col-md-6 pt-3 d-flex align-items-center">
-            <form @submit.prevent="trackOrder()">
+            <form @submit.prevent="trackOrder">
             <!-- <div class="form-group pb-3">
                 <select class="form-control shadow rounded" id="track-system">
                      <option value="">CN Number</option> 
@@ -26,23 +26,18 @@
                 </select>
               </div> -->
               <div class="form-group pb-3">
-                <input class="form-control shadow rounded" type="search" v-model="trackSearch" placeholder="Track your order">
+                <input class="form-control shadow rounded" type="search" v-model.lazy="trackSearch" placeholder="Track your order">
               </div>
-              <!-- <input class="form-control btn btn-outline-danger shadow rounded" type="submit" value="Search"> -->
-              <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-  Open modal
+              <button type="submit" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+  Track Order
 </button>
         </form>
     </div>
     </div>
-    <!-- Button to Open the Modal -->
-<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-  Open modal
-</button> -->
-
+<!-- TODO need to modal issue solve -->
 <!-- The Modal -->
 <div class="modal" id="myModal" v-if="searchResult.length > 0">
-  <div class="modal-dialog  modal-xl">
+  <div class="modal-dialog modal-xl">
     <div class="modal-content">
 
       <!-- Modal Header -->
@@ -79,6 +74,7 @@
     </div>
   </div>
 </div>
+<div v-else>No Data found</div>
 </template>
 
 <script>
