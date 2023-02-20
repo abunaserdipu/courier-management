@@ -1,4 +1,23 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+#Barishal Courier(Courier Management System)
+
+##Features
+
+-   **Authentication system used for secure this application.**
+-   **Authorized representative only see their area's received orders also can find specific orders by their consignment number.**
+-   **Secure payment system stripe used for online payment.**
+-   **Monthly transaction report can see.**
+-   **Most delivered area report can see.**
+-   **A printable memo will generate after received a order**
+-   **After receive any order a confirmation mail will send in customer email id**
+-   **After send any parcel you can track it by serial number or contact number (sender,receiver).**
+-   **Can see total pending orders & total completed orders.**
+
+##Technologies
+
+-   [Frontend]VueJS,Bootstrap5,HTML5,CSS3
+-   [Backend]Laravel,Breeze,Laravel-UI
+
+<!-- <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -61,4 +80,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->

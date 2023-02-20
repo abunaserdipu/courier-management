@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeLayout from "../layouts/HomeLayout.vue";
-import AboutPage from "../pages/AboutPage.vue";
-import TrackPage from "../pages/TrackPage.vue";
+import HomeLayout from "../components/layouts/HomeLayout.vue";
+import AboutPage from "../components/pages/AboutPage.vue";
+import TrackPage from "../components/pages/TrackPage.vue";
 
 const router = createRouter({
     history: createWebHistory(),
