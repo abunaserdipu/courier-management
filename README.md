@@ -1,6 +1,6 @@
-#Barishal Courier(Courier Management System)
+# Barishal Courier(Courier Management System)
 
-##Features
+## Features
 
 -   **Authentication system used for secure this application.**
 -   **Authorized representative only see their area's received orders also can find specific orders by their consignment number.**
@@ -12,7 +12,7 @@
 -   **After send any parcel you can track it by serial number or contact number (sender,receiver).**
 -   **Can see total pending orders & total completed orders.**
 
-##Technologies
+## Technologies
 
 -   [Frontend]VueJS,Bootstrap5,HTML5,CSS3
 -   [Backend]Laravel,Breeze,Laravel-UI
